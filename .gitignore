@@ -1,0 +1,9 @@
+env
+__pycache__
+.DS_Store
+.gitignore
+wsgi.py
+.env
+build.sh
+logs.sh
+.idea

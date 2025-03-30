@@ -17,7 +17,7 @@ class Entry:
             "user_name": self.user_name,
             "experiment_time": self.experiment_time.isoformat(),
             "final_distance": self.final_distance,
-            "experiment_type": int(self.experiment_type),  # convert to 1/0 for JSON/db
+            "experiment_type": int(self.experiment_type),
             "initial_speed": self.initial_speed,
             "deceleration_of_front_car_stop_time": self.deceleration_of_front_car_stop_time,
             "initial_distance": self.initial_distance
